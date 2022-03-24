@@ -1,0 +1,14 @@
+{
+    "extends": "@tsconfig/node14/tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "output",
+        "paths": {
+            "@shared/*": ["./../../shared/*"],
+        },
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "sourceMap": true
+    }
+}

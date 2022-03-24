@@ -1,0 +1,16 @@
+{
+    "name": "functions",
+    "scripts": {
+        "clean": "rimraf output",
+        "build": "yarn clean && tsc --project tsconfig.json",
+        "alias": "tsc-alias -p tsconfig.json --verbose"
+    },
+    "main": "output/functions/src/index.js",
+    "devDependencies": {
+        "@tsconfig/node14": "^1.0.1",
+        "rimraf": "^3.0.2",
+        "typescript": "4.6.2",
+        "tsconfig-paths": "^3.14.1",
+        "tsc-alias": "^1.6.4"
+    }
+}
